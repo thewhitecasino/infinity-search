@@ -1,0 +1,263 @@
+{
+  "employees": [
+    {
+      "name": "Stanley Inlew",
+      "skills": "Java/Android/PHP",
+      "primary_skill": "Android",
+      "path_to_resume": "db_emp/android_dev/Stanley.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Sooraj Jamal",
+      "skills": "Android/C#/C Sharp/REST/REST API/MSSQL/Java/Microsoft SQL Server/Microsoft SQL",
+      "primary_skill": "Android",
+      "path_to_resume": "db_emp/android_dev/Stanley.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Farhan Qamal",
+      "skills": "Android/Java/MVC/Kotlin",
+      "primary_skill": "Android",
+      "path_to_resume": "db_emp/android_dev/Farhan.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Ayetolu Sarah",
+      "skills": "Android/Java/Firebase/Kotlin/REST",
+      "primary_skill": "Android",
+      "path_to_resume": "db_emp/android_dev/Ayetolu.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Muhammad Ayath",
+      "skills": ".net/C#/C Sharp/Angular",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Muhammad.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Gilbert Aman",
+      "skills": ".net/C#/C Sharp/REST/REST API/MSSQL/Java/Microsoft SQL Server/Microsoft SQL/Angular/Vue/Vue.js",
+      "primary_skill": "Android",
+      "path_to_resume": "db_emp/csharp/Gilbert.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Sooraj Jamal",
+      "skills": "Android/C#/C Sharp/REST/REST API/MSSQL/Java/Microsoft SQL Server/Microsoft SQL",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Sooraj.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Aduramomi Olanji",
+      "skills": "C#/C Sharp/REST/REST API/MSSQL/Java/Microsoft SQL Server/Microsoft SQL/Entity",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Aduramomi.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Binyam Dahil",
+      "skills": "C#/JavaScript/JS/MSSQL/Microsoft SQL/.net/Anguler/ASP.net",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Binyam.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "David Kamal",
+      "skills": "Laravel/PHP/REST/C#",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/David.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Isaac Olatunanji",
+      "skills": "C#/Angular/JS/JavaScript/Microsoft SQL/CSS",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Isaac.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Jasmine Zahra",
+      "skills": "C#/.net/Angular/JavaScript/Microsoft SQL/Azure/asp.net",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Jasmine.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Joseph Ilanti",
+      "skills": "C#/.net/TypeScript/asp.net/SQL/MongoDB/NoSQL",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Joseph.pdf",
+      "resume_point": 2
+    },
+    {
+      "name": "Lensa Amanta",
+      "skills": "C#/Angular/JS/JavaScript/Microsoft SQL/CSS/.net/ASP.net",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Lensa.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Rauf Anar",
+      "skills": "C#/PL-SQL/JS/JavaScript/Microsoft SQL/.net/MySQL",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Rauf.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Waiswa Karan",
+      "skills": "C#/.net/Xamarin/Xamarin Forms",
+      "primary_skill": "C#",
+      "path_to_resume": "db_emp/csharp/Waiswa.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Doris Mahlam",
+      "skills": "Java/Spring Boot/PostgreSQL/JPA/MongoDB/AWS",
+      "primary_skill": "Java",
+      "path_to_resume": "db_emp/java/Doris.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Abdulaziz Lahim",
+      "skills": "JS/JavaScript/Inkscape/Angular/Mysql/postgresql",
+      "primary_skill": "Angular",
+      "path_to_resume": "db_emp/js/FE/Abdulaziz.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Augusto Malayak",
+      "skills": "HTML5/CSS/Vue.js/PHP",
+      "primary_skill": "Vue.js",
+      "path_to_resume": "db_emp/js/FE/Augusto.pdf",
+      "resume_point": 2
+    },
+    {
+      "name": "Aboyami Orantiu",
+      "skills": "JS/JavaScript/Node.js/MongoDB/MySQL/NodeJS",
+      "primary_skill": "Javascript",
+      "path_to_resume": "db_emp/js/FS/Abayomi.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Asega Iman",
+      "skills": "JS/JavaScript/Node.js/MongoDB/MySQL/NodeJS",
+      "primary_skill": "Javascript",
+      "path_to_resume": "db_emp/js/FS/Asega.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Edmund Ilan",
+      "skills": "React.js/Node.js/Vue.js/NodeJS",
+      "primary_skill": "Javascript",
+      "path_to_resume": "db_emp/js/FS/Edmund.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Charith Salem",
+      "skills": "React.js/Node.js/Vue.js/React Native/NodeJS",
+      "primary_skill": "Javascript",
+      "path_to_resume": "db_emp/js/FS/Charith.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Simon Ortega",
+      "skills": "Javascript/JS/Java/Wordpress",
+      "primary_skill": "Wordpress",
+      "path_to_resume": "db_emp/js/FS/Simon.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Ibeh Erand",
+      "skills": "Javascript/Laravel/API Development/Flutter/Angular",
+      "primary_skill": "Javascript",
+      "path_to_resume": "db_emp/laravel_and_js/Ibeh.pdf",
+      "resume_point": 2
+    },
+    {
+      "name": "Segun Balah",
+      "skills": "Laravel/Javascript/Django/Vue.js",
+      "primary_skill": "Django",
+      "path_to_resume": "db_emp/laravel_and_js/Segun.pdf",
+      "resume_point": 2
+    },
+    {
+      "name": "Samwul Danvir",
+      "skills": "PHP/Javascript/Node.js/TypeScript/TS/JS",
+      "primary_skill": "Typescript",
+      "path_to_resume": "db_emp/php_and_js/BE/Samwul.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Saleh Gawah",
+      "skills": "PHP/Linux/Node.js/Javascript/API/Ubuntu/SQL/NoSQL/JS/AWS/NodeJS",
+      "primary_skill": "Javascript",
+      "path_to_resume": "db_emp/php_and_js/FS/Saleh.pdf",
+      "resume_point": 4
+    },
+    {
+      "name": "Richard Karim",
+      "skills": "PHP/Linux/Node.js/Javascript/API/Ubuntu/SQL/NoSQL/JS/DevOps/jQuery/AWS/Express.js/Node.js/NodeJS",
+      "primary_skill": "PHP",
+      "path_to_resume": "db_emp/php_and_js/FS/Richard.pdf",
+      "resume_point": 4
+    },
+    {
+      "name": "Chinomnso Ulantunji",
+      "skills": "PHP/CSS/MySQL/JS/Javascript",
+      "primary_skill": "PHP",
+      "path_to_resume": "db_emp/php_or_laravel/Richard.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Kingsley Chala",
+      "skills": "PHP/Drupal/Wordpress/MongoDB",
+      "primary_skill": "PHP",
+      "path_to_resume": "db_emp/php_or_laravel/Richard.pdf",
+      "resume_point": 2
+    },
+    {
+      "name": "Ahmed Alhamda",
+      "skills": "Python/API Development/SQL/Machine Learning",
+      "primary_skill": "Python",
+      "path_to_resume": "db_emp/python/Ahmed.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Chidiebere Chidi",
+      "skills": "'Node.js/Python/Flask/FastApi/Web2py/Golang/JavaScript/TypeScript/HTML/CSS/Bootstrap/Flutter/Angular/React.js/Oracle/MySQL",
+      "primary_skill": "Python",
+      "path_to_resume": "db_emp/python/Chidiebere.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Rairo Muham",
+      "skills": "Python/Flask/SQL",
+      "primary_skill": "Python",
+      "path_to_resume": "db_emp/python/Rairo.pdf",
+      "resume_point": 1
+    },
+    {
+      "name": "Tanvir Raihan",
+      "skills": "Python/Django/Django rest framework/Redis/MongoDB/Git/ElasticSearch/Tornado/PostgreSQL/Sanic/AngularJS/Heroku/Ubuntu/API Development/REST APIs/CodeIgniter/PhpMyAdmin",
+      "primary_skill": "Python",
+      "path_to_resume": "db_emp/python/Tanvir.pdf",
+      "resume_point": 4
+    },
+    {
+      "name": "Chris Agua",
+      "skills": "Python/Django/MongoDB/NoSQL/SQL/API/Testing/Test/Django rest framework/Redis/Node.js",
+      "primary_skill": "Python",
+      "path_to_resume": "db_emp/python_or_node/Chris.pdf",
+      "resume_point": 3
+    },
+    {
+      "name": "Jeraldy Denis",
+      "skills": "Python/Django/MongoDB/NoSQL/SQL/API/Testing/Test/Django rest framework/Redis/Node.js",
+      "primary_skill": "Python",
+      "path_to_resume": "db_emp/python_or_node/Jeraldy.pdf",
+      "resume_point": 3
+    }
+  ]
+}

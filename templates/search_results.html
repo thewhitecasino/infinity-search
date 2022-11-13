@@ -1,0 +1,48 @@
+<title>JSearch</title>
+
+<style>
+    html,
+      body {
+        font-family: arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      #search-box {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 100%;
+        height: 40px;
+        border: 1px solid #ffba3a;
+        padding: 0 10px;
+      }
+
+      input#search-box:focus {
+        border-color: #4d90fe;
+        outline: none;
+      }
+      .icon{
+        display: none
+      }
+
+</style>
+<input style="width: 70%" placeholder="Find a new candidate" onchange="startSearch()" type="text" name="search" id="search-box">
+<br style="clear: both">
+<br>
+<hr>
+<br>
+<br>
+{% for i in results %}
+    <a href="/get-candidate/{{ i.candidate.id }}"><h2 style="margin-left: 50px">{{ i.candidate.name }}</h2>
+
+    <p style="margin-left: 50px; color: gray">Matching Score: {{ i.matching_score }}</p></a>
+    <br><br>
+{% endfor %}
+
+<script>
+  function startSearch(){
+    search_val = document.getElementById("search-box").value
+
+    document.location = "/search/" + search_val
+  }
+</script>

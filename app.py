@@ -100,7 +100,7 @@ def search_index():
 
         for i in data_from_page:
             if i in all_skills:
-                required_skills.append(i)
+                required_skills.append(i.replace("#", "sharp"))
 
         required_skills = set(required_skills)
 

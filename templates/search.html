@@ -7,7 +7,19 @@
 <body>
   <center style=" top: -10%; left: 0; bottom: 0; right: 0; margin: auto; width: fit-content; height: fit-content; position: absolute">
     <h1 style="font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;">Infinity Group</h1>
-    <input style="width: 450px; height: 30px; outline: none; text-indent: 1.5rem" type="text" placeholder="Search for skills" onchange="document.location = '/search/' + document.getElementById('search-bar').value" id="search-bar">
+      <form method="post" id="form-submit" enctype="multipart/form-data">
+          <input name="url_to_listing" style="width: 450px; height: 30px; outline: none; text-indent: 1.5rem" type="text" placeholder="Search for skills" onchange="" id="search-bar">
+      </form>
   </center>
+  <script>
+      function search_or_parse(){
+          if(!document.getElementById("search-bar").value.contains("http")){
+            document.location = '/search/' + document.getElementById('search-bar').value
+          }
+          else{
+              document.getElementById("form-submit").submit()
+          }
+      }
+  </script>
 </body>
 </html>

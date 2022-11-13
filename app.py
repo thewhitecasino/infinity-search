@@ -1,6 +1,7 @@
 import flask
 from flask_sqlalchemy import SQLAlchemy
 from operator import itemgetter
+from requests import get
 
 app = flask.Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///site.db"
@@ -16,6 +17,11 @@ class Candidate(db.Model):
     name = db.Column(db.String)
     path_to_resume = db.Column(db.String)
     resume_point = db.Column(db.Integer)
+
+
+class Searches(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    search_term = db.Column(db.String)
 
 
 def get_matching_score_one(arr1, arr2):
@@ -40,6 +46,11 @@ def remove_low_matching_scores(arr, minimum=6):
 
 @app.route("/search/<skills>")
 def search(skills):
+    new_search = Searches(search_term=skills)
+
+    db.session.add(new_search)
+    db.session.commit()
+
     contains_js = "js" in skills
     skills = skills.split(",")
 
@@ -72,6 +83,27 @@ def get_candidate(candidate_id):
     return flask.send_file(Candidate.query.get(candidate_id).path_to_resume)
 
 
-@app.route("/")
+@app.route("/", methods=["POST", "GET"])
 def search_index():
+    if flask.request.method == "POST":
+        path = flask.request.values["url_to_listing"]
+        data_from_page = get(path).text.lower().split(" ")
+
+        required_skills = []
+        all_skills = []
+
+        for i in Candidate.query.all():
+            for c in i.skills.split("/"):
+                all_skills.append(c.lower())
+
+        all_skills = set(all_skills)
+
+        for i in data_from_page:
+            if i in all_skills:
+                required_skills.append(i)
+
+        required_skills = set(required_skills)
+
+        return flask.redirect("/search/" + ",".join(required_skills))
+
     return flask.render_template("search.html")
